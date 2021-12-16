@@ -1,5 +1,3 @@
-![](https://visitor-badge.laobi.icu/badge?page_id=marshallr7.marshallr7)
-
 ```java
 public class Marshall extends GitHubUser {
   public Marshall() {
@@ -32,3 +30,5 @@ public abstract class GitHubUser {
   }
 }
 ```
+
+![](https://visitor-badge.laobi.icu/badge?page_id=marshallr7.marshallr7) [![Github](https://img.shields.io/github/followers/marshallr7?label=Follow&style=social)](https://github.com/marshallr7)
