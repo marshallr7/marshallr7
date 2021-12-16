@@ -1,16 +1,31 @@
-### Hi there 👋
+```public class Marshall extends GitHubUser {
 
-<!--
-**marshallr7/marshallr7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  public Marshall() {
+    super("marshallr7", "Texas");
 
-Here are some ideas to get you started:
+    this.addLanguage("Java", "Python", "C", "C++");
+    this.addExperience("MythicGames LLC", "DawnGames LLC");
+  }
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+public abstract class GitHubUser {
+
+  @Getter private final String username;
+  @Getter private final String country;
+
+  private Set<String> languages = new HashSet<>();
+  private Set<String> experiences = new HashSet<>();
+
+  public GitHubUser(String username, String country) {
+      this.name = username;
+      this.country = country;
+  }
+
+  public void addLanguage(String... language) {
+      this.languages.addAll(language);
+  }
+  
+  public void addExperience(String... experience) {
+      this.experiences.addAll(experience);
+  }
+}```
