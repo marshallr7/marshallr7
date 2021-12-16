@@ -1,8 +1,9 @@
+![](https://visitor-badge.laobi.icu/badge?page_id=marshallr7.marshallr7)
+
 ```java
 public class Marshall extends GitHubUser {
-
   public Marshall() {
-    super("marshallr7", "Texas");
+    super("marshallr7", "Lubbock, Texas");
 
     this.addLanguage("Java", "Python", "C", "C++");
     this.addExperience("MythicGames LLC", "DawnGames LLC");
