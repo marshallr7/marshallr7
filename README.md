@@ -31,4 +31,6 @@ public abstract class GitHubUser {
 }
 ```
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=marshallr7&theme=tokyonight)
+
 ![](https://visitor-badge.laobi.icu/badge?page_id=marshallr7.marshallr7) [![Github](https://img.shields.io/github/followers/marshallr7?label=Follow&style=social)](https://github.com/marshallr7)
