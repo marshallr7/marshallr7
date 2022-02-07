@@ -11,14 +11,14 @@ public class Marshall extends GitHubUser {
 public abstract class GitHubUser {
 
   @Getter private final String username;
-  @Getter private final String country;
+  @Getter private final String location;
 
   private Set<String> languages = new HashSet<>();
   private Set<String> experiences = new HashSet<>();
 
-  public GitHubUser(String username, String country) {
+  public GitHubUser(String username, String location) {
       this.name = username;
-      this.country = country;
+      this.location = location;
   }
 
   public void addLanguage(String... language) {
