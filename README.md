@@ -3,8 +3,8 @@ public class Marshall extends GitHubUser {
   public Marshall() {
     super("marshallr7", "Lubbock, Texas");
 
-    this.addLanguage("Java", "Python", "C", "C++");
-    this.addExperience("Keeling Systems LLC", "DawnGames LLC");
+    this.addLanguage("Java", "Python", "C", "C++", "SQL");
+    this.addExperience("Keeling Systems LLC", "DawnGames LLC", "Sompo International");
   }
 }
 
